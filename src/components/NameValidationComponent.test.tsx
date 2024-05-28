@@ -1,5 +1,5 @@
-import { render, screen, fireEvent, waitFor } from "./test-utils";
-import NameValidationComponent from "./components/NameValidationComponent";
+import { render, screen, fireEvent, waitFor } from "../test-utils";
+import NameValidationComponent from "./NameValidationComponent";
 
 describe("NameValidationComponent", () => {
   it("should render input field", () => {
@@ -51,7 +51,7 @@ describe("NameValidationComponent", () => {
     const inputElement = screen.getByPlaceholderText(/Enter your name/i);
 
     fireEvent.change(inputElement, { target: { value: "Valid Name" } });
-    fireEvent.keyUp(inputElement);
+    fireEvent.keyUp(inputElement); 
 
     expect(
       screen.queryByText(/Name must contain only letters and spaces./i)

@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import React, { ReactElement } from 'react';
+import  { ReactElement } from 'react';
 import { render as rtlRender, RenderOptions } from '@testing-library/react';
 import { createRoot } from 'react-dom/client';
 
