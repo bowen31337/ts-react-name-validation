@@ -12,26 +12,6 @@ This project demonstrates a React component with input validation using both inl
 - **Styling:** Includes basic styling for better user experience.
 - **Testing:** Comprehensive tests using Vitest and React Testing Library.
 
-## Project Structure
-
-```
-src/
-│
-├── hooks/
-│   └── useNameValidation.ts
-│
-├── components/
-│   └── NameValidationComponent.tsx
-│
-├── tests/
-│   └── NameValidationComponent.test.tsx
-│
-├── index.css
-├── test-utils.tsx
-├── App.tsx
-├── main.tsx
-└── tsconfig.json
-```
 
 ## Installation
 
